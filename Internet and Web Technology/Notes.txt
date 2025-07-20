@@ -1,0 +1,91 @@
+var vs let 
+using var we can declare a same variable in same scope.
+var is declaring the variable globally.
+let doesnot allow re-declaration in the same scope.
+let declares variable locally.
+
+Design a page to get student details like name,gender,age on click of submit button validate fields
+
+3 types of css 
+inline 
+internal
+exterior
+
+RGB - 24 bit #000000 - black #ffffff - white
+Gray Scale 8 bit 0 255 0 - black 255 - white
+Black White 1 bit 0 - black 1-white
+
+block level tag
+inline tag
+
+types of selectors in css
+1. id - #
+2. class - .
+3. tag
+
+
+Margin - Outside Spacing
+Padding - Inside Spacing
+
+spread operator
+[{title,author,img},....post]
+lambda operator
+arrow functions
+
+cookies are saved in broweser
+cookies are client side
+session are serverside
+
+the application runs on Web server is called web applications
+
+website : collection of web pages
+
+CLient to server communiction known as request
+server to client is called response
+
+Head contain all the configration
+Body  contains all the data
+
+Rendoring - Display your Web page on screen
+
+Types of Array  in PHp
+associative - key value pair
+index based - index started from 0
+
+by using echo e cannot print array in single statement
+we can print individual element
+
+Big Data :- Valocity , Variety and Volume
+Need of BIg Data :- 
+Block Chain :- 
+
+var scope is global we can redeclare
+let redeclaration is not possible. it will operate in scope.
+const contains constant value.
+
+
+Anonomious Function :- 
+
+
+
+
+PHP OOP :
+
+part of  :- 
+Car {
+	Wheel wheel ;
+}
+
+type of :-
+
+HeartSx extends Doctor {
+
+}
+
+library :
+is a group of code
+
+frame work :
+collection of library
+
+

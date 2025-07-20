@@ -1,0 +1,28 @@
+User side :-
+
+club registration
+events enrollment and announcement
+completed and upcoming events
+quiz 
+leaderboard and time and accuracy based reward system
+
+
+Admin Side :-
+
+Create Announcements
+Post a Quiz quenstion monthly
+Post a Monthly Report
+
+reg
+Name
+Institute Email
+Personal Mail
+Phone No
+Department 
+Batch Year
+Enrollment No
+
+
+login 
+email pass
+forgot pass

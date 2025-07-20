@@ -1,0 +1,44 @@
+Filter Method:
+
+Advantages:
+
+Bandwidth Efficiency: The filter method efficiently uses the available bandwidth by transmitting only one sideband along with the carrier.
+Reduced Adjacent Channel Interference: Since only one sideband is transmitted, the potential for adjacent channel interference is reduced compared to double-sideband modulation.
+Power Efficiency: It is more power-efficient than DSB-FC modulation since it does not transmit the redundant carrier.
+
+Limitations:
+
+Complexity: Implementing the filter method requires precise filters to suppress one sideband effectively, which can add complexity to both the transmitter and receiver.
+Frequency Selectivity: The filter method requires careful tuning and adjustment of the filters to maintain signal integrity, especially in the presence of frequency drift or variations.
+
+Phasing Method:
+
+Advantages:
+
+Bandwidth Efficiency: Similar to the filter method, the phasing method also achieves bandwidth efficiency by transmitting only one sideband.
+Reduced Complexity: The phasing method can be implemented with simpler circuitry compared to the filter method, making it more practical in some applications.
+
+Frequency and Phase Alignment: Proper frequency and phase alignment between the modulating signal and the carrier are critical for successful demodulation, which can be challenging to achieve in some scenarios.
+Sensitive to Phase Imbalance: Any phase imbalance or error in the modulation process can degrade signal quality and introduce distortion.
+Complex Demodulation: Demodulation in the phasing method typically requires coherent detection, which can add complexity to the receiver design.
+
+Third Method (commonly refers to the Weaver's or Hilbert transform method):
+
+Advantages:
+
+Simple Implementation: The third method offers a relatively simple implementation compared to traditional filter or phasing methods.
+Reduced Complexity: It simplifies the process of generating SSB signals by using a Hilbert transform or a Weaver modulator, reducing the need for complex filters or mixers.
+Improved Signal Quality: By maintaining better frequency and phase relationships, the third method can often yield improved signal quality.
+
+Limitations:
+
+Sensitivity to Timing and Phase Errors: Like other SSB generation methods, the third method is sensitive to timing and phase errors, which can degrade signal quality if not properly compensated for.
+
+
+VSB Modulation Applications
+The applications of VSB modulation include the following.
+
+- VSB modulation is standard for the transmission of TV signals. Because the video signals require a large transmission BW using the techniques like DSB-FC otherwise DSF-SC.
+- This is a type amplitude modulation that is mainly used for the TV broadcast worldwide. In this broadcast, it is essential to broadcast the information of video and audio concurrently.
+- In the transmission of VSB, the higher sideband of video signal & picture carrier are broadcasted without any control. Where a vestige is a fraction of lower sideband and it is transmitted & the residual part is covered up
+- When the usage of BW is considered, then this is the most suitable and proficient technique.

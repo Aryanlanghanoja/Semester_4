@@ -1,0 +1,14 @@
+ESE :- Project 70
+Game = 30
+Total = 50
+
+IA - Task Bases Assigment
+Practical Test
+Total = 30
+
+CSE Quiz
+Ttal = 20
+
+Viva - End Sem Viva - 25
+
+Term Work :- Lab Experiments 25

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Authentication</title>
+</head>
+
+<body>
+    <label for="age" style="font-weight:bold;">Enter Your Age :-</label>
+    <input type="number" name="age" id="age">
+    <input type="button" value="Check" onclick="Check()">
+    <script>
+        function Check() {
+            var Age = document.getElementById("age").value;
+            var warning = Age > 18 ? "Old enough" : Age < 0 ? "Age Should Be Positive" : "Too young";
+            alert(warning);
+        }
+    </script>
+</body>
+
+</html>

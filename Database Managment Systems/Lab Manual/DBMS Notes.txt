@@ -1,0 +1,38 @@
+SQL :
+DDL 
+-create - to create the table 
+-alter - to modify the structure existing table
+to add new column
+ALTER TABLE TABLE_NAME
+ADD Attribute_Name Datatype
+-drop - to delete the table
+to delete a column
+ALTER TABLE TABLE_NAME
+DROP Column_Name
+-truncate
+-rename
+used to rename the database object
+ALTER TABLE Table_Name RENAME COLUMN curr_name TO new_Name
+-comment
+to add a specific comment to a specific comment 
+COMMENT ON COLUMN tablename.columnname IS "Your Comment"
+
+DQL
+-select
+
+DML
+-insert
+-update
+-delete
+
+DCL
+-grant
+-revoke
+
+TCL
+-commit
+-rollback
+
+AS - TO CREATE A SUB TABLE.
+
+

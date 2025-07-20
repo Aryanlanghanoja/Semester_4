@@ -1,0 +1,79 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validate The Values</title>
+  </head>
+  <body>
+    <b> Name :- </b>
+    <input type="text" id="inputName" placeholder="Enter Your Name" /> <br />
+    <b> Gender :- </b>
+    <input type="radio" name="Gender" id="inputGender" value="Male" /> Male
+    <input type="radio" name="Gender" id="inputGender" value="Female" /> Female
+    <br />
+    <b> Age :- </b>
+    <input type="number" name="Age" id="inputAge" />
+    <br />
+    <br />
+    <button onclick="ShowDetails()">Submit</button>
+    <script>
+      function ShowDetails() {
+        if (
+          document.getElementById("inputName").value == "" ||
+          document.getElementById("inputAge").value <= 1 ||
+          (!document.getElementById("Male").checked &&
+            !document.getElementById("Female").checked)
+        ) {
+          alert("Please Enter Yoyr Necessary Details");
+        } else {
+          console.log(
+            `Name:- ${document.getElementById("inputName").value}\nAge:- ${
+              document.getElementById("inputAge").value
+            }\nGender:- ${document.getElementById("inputGender")}`
+          );
+        }
+      }
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validate The Values</title>
+  </head>
+  <body>
+    <b> Name :- </b>
+    <input type="text" id="inputName" placeholder="Enter Your Name" /> <br />
+    <b> Gender :- </b>
+    <input type="radio" name="Gender" value="Male" /> Male
+    <input type="radio" name="Gender" value="Female" /> Female
+    <br />
+    <b> Age :- </b>
+    <input type="number" name="Age" id="inputAge" />
+    <br />
+    <br />
+    <button onclick="ShowDetails()">Submit</button>
+    <script>
+      function ShowDetails() {
+        var gender = document.querySelector('input[name="Gender"]:checked');
+        if (
+          document.getElementById("inputName").value == "" ||
+          document.getElementById("inputAge").value <= 1 ||
+          gender === null
+        ) {
+          alert("Please Enter Your Necessary Details");
+        } else {
+          console.log(
+            `Name:- ${document.getElementById("inputName").value}\nAge:- ${
+              document.getElementById("inputAge").value
+            }\nGender:- ${gender.value}`
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

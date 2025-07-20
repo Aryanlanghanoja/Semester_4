@@ -1,0 +1,37 @@
+Task-1: Perform the analysis over the given dataset (Each question carries 2 marks): 
+
+1. Draw the connection/blending diagram in tableau to merge/connect multiple different tables. [For writing the answer in answerbook, write the joining key name between the tables]
+2. Who is the most popular or famous author (a. based on ratings; b. based on sales)
+3. Top-3 countries with the highest number of authors
+4. Who is the hardworking author in terms of working per day
+5. Top-5 authors having the highest average ratings
+6. Top-5 Books having the highest average ratings
+7. Top-5 authors spending maximum amount on marketing
+8. Top-5 authors writing the highest total number of pages
+9. Top-5 Publication House (in terms of count of books published)
+10. Top-5 publication house with highest-priced books
+11. Total number of books in each genre
+12. Top-5 publication house with the highest sales in each quarter
+13. Top-3 youngest authors
+14. Whose (Author) book is least read by the readers
+15. Average price of the books published by top-5 authors (in terms of their published books)
+16. Average price of the books for each publication house
+17. Which genre of the book has the highest sales
+18. Top-5 books having won the maximum number of awards 
+19. Top-3 publication houses having won the maximum number of awards 
+20. Which genre of the books has the highest price
+21. Total number of books published by any publication house having a price >20 USD
+22.Top-5 books with the highest worth (worth=price/number of pages)
+23. Top-5 authors having the highest sale of their books
+24. Top-5 books with the highest number of pages
+25. Design the dashboard that contains the information of top-5 authors with the highest ratings, top-5 books with the highest ratings, the top genre of the book with the highest sales, the Top publication house with the highest number of awards, the top author with the highest number of awards  [No need to write this answer on the supplementary]
+
+Task-2: Write python code for any 5 questions as per your choice.
+
+(Each question is of 2 marks)
+
+ 
+
+For submission: As a part of TASK-1 write the answers in the answersheet provided to you, and submit the .twb file.
+
+As a part of TASK-2, submit the python file (.py)

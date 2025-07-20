@@ -1,0 +1,16 @@
+1. What is the most common order quantity?
+2. Are there specific quarter with higher order volumes?
+3. How does order frequency vary over the month?
+4. Are there certain categories contributing more to revenue?
+5. What is the distribution of orders across different order categories?
+6. Can you identify the most common product purchased in large orders?
+7. What is the average quantity of products per order?
+8. Which product has the highest unit price?
+9. What is the total revenue generated from large orders versus normal orders?
+10. What is the proportion of large orders to normal orders in the dataset?
+11. How many unique customers are represented in the dataset?
+12. What is the most frequently purchased product across all orders?
+13. What is the average total cost for each order category?
+14. How does the quantity of products impact the total cost in different order categories?
+15. What is the proportion of small, normal, and large orders in the dataset?
+

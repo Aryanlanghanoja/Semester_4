@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 20px;
+        }
+
+        b {
+            font-size: 1.2em;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #Counter {
+            font-size: 2em;
+            margin: 20px 0;
+            color: #45a049;
+        }
+    </style>
+
+</head>
+
+<body>
+    <b>Enter The Capacity of Your Classroom :- </b>
+    <div id="CapacityInitialize">
+        <input type="number" placeholder="Enter The Capacity" id="capacity">
+        <button id="Enter" onclick="initialize()">Enter</button>
+    </div>
+
+    <div id="CounterPart">
+        <div id="Counter">0</div>
+        <button id="Plus" onclick="increase()">+</button>
+        <button id="Minus" onclick="decrease()">-</button>
+        <button id="Reset" onclick="ResetButton()">Reset</button>
+        <button id="ResetCapacity">Reset Capacity</button>
+    </div>
+
+    <script>
+        var count = 0;
+        var Capacity = 0;
+
+        function initialize() {
+            Capacity = document.getElementById("capacity").value;
+
+            if (Capacity < 0) {
+                alert("Capacity Should Be Positive");
+            }
+
+            else {
+                document.getElementById("CounterPart").innerHTML = '<div id="Counter">0</div>' +
+                    '<button id="Plus" onclick="increase()">+</button>' +
+                    '<button id="Minus" onclick="decrease()">-</button>' +
+                    '<button id="Reset" onclick="ResetButton()">Reset</button>' +
+                    '<button id="ResetCapacity">Reset Capacity</button>';
+            }
+        }
+
+        function increase() {
+            if (count == Capacity) {
+                alert("Classroom Is Full Cannot Increment");
+            } else {
+                count += 1;
+                document.getElementById("Counter").innerText = count;
+            }
+        }
+
+        function ResetButton() {
+            count = 0;
+            document.getElementById("Counter").innerText = count;
+        }
+
+        function decrease() {
+            if (count <= 0) {
+                alert("Counter Will Not be Negative");
+            } else {
+                count -= 1;
+                document.getElementById("Counter").innerText = count;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+Question - 1 :-  product categories available to shop for customers
+Question - 2 :- number of products in each category 
+Question - 3 :- number of products in each sub-category
+Question - 4 :- Distribution of sub-categories wrt to category
+Question - 5 :- Percentage distribution of varieties of Office Supplies
+Question - 6 :- Percentage distribution of varieties of Technology
+Question - 7 :- Percentage distribution of varieties of Technology
+Question - 8 :- Profit and sales for each sub-category
+Question - 9 :- Total number of unique products ordered in store
+Question - 10 :- Total count of each product ordered in store
+Question - 11 :- total count of subcategory region wise
+Question - 12 :- Which product has the highest profit	
+Question - 13 :- Which sub-category has the highest profit
+Question - 14 :- Which product has the highest loss
+Question - 15 :- Which sub-category has the highest loss
+Question - 16 :- Top 10 customers who order frequently
+Question - 17 :- Total Number of unique customers
+Question - 18 :- Top-10 profitable customers in NewYork
+Question - 19 :- Product having the maximum time taken to ship
+Question - 20 :- Category having the maximum time taken to ship
+Question - 21 :- Sales and Profit for each year (for all the categories)
+22. Design the Dashboard of Q.1, 16, 8, 9, 21
+
+
+

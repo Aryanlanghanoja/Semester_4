@@ -1,0 +1,11 @@
+Frontend 
+HTML5 CSS3 React.js Bootstrap
+
+Backend
+PHP , Node.js
+
+Database 
+MySQL , MongoDB
+
+API 
+Express.js

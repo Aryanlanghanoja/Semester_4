@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment-3</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div id="question_add">
+            <input type="text" class="form-control mb-2" name="txtQuestion" id="txtQuestion"
+                placeholder="Enter The Question">
+            <input type="text" class="form-control mb-2" name="txtOpt1" id="txtOpt1" placeholder="Enter The Option-1">
+            <input type="text" class="form-control mb-2" name="txtOpt2" id="txtOpt2" placeholder="Enter The Option-2">
+            <input type="text" class="form-control mb-2" name="txtOpt3" id="txtOpt3" placeholder="Enter The Option-3">
+            <input type="text" class="form-control mb-2" name="txtOpt4" id="txtOpt4" placeholder="Enter The Option-4">
+            <b>Select The Correct Answer :- </b>
+            <select class="form-control mb-2" name="corrAns" id="corrAns">
+                <option value="1">Option-1</option>
+                <option value="2">Option-2</option>
+                <option value="3">Option-3</option>
+                <option value="4">Option-4</option>
+            </select>
+            <button type="button" class="btn btn-primary mb-2" id="addQue" onclick="addQuestion()">Add</button>
+        </div>
+        <div class="question" id="labelQuestion">
+            Question text
+        </div>
+        <div class="answer mt-3" id="answer">
+        </div>
+        <div class="navigation mt-3">
+            <button type="button" class="btn btn-secondary" id="btnPrev" onclick="onClickPrev()">Prev</button>
+            <button type="button" class="btn btn-primary ml-2" id="btnCheck" onclick="checkAnswer()">Check
+                Answer</button>
+            <button type="button" class="btn btn-secondary ml-2" id="btnNext" onclick="onClickNext()">Next</button>
+            <button type="button" class="btn btn-primary ml-2" id="btnCheckResult" onclick="onClickResult()"
+                style="display:none">Check Result</button>
+        </div>
+        <div id="displayresult"></div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="myjs.js"></script>
+</body>
+
+</html>

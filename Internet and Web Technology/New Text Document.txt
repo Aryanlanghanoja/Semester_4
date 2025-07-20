@@ -1,0 +1,3 @@
+Fron end Proper
+Back end Proper
+JQuery instead of Javascript

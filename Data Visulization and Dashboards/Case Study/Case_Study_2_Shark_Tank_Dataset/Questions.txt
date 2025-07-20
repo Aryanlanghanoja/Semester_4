@@ -1,0 +1,16 @@
+1) Which season is having the overall highest deal in terms of the amount?
+2) Enlist episodes for each season having the highest deal in terms of the amount?
+3) Which are the top-10 deals in the shark tank?
+4) Top-3 Industries with highest deals in the shark tank?
+5) Which are the top-5 cities with the maximum number of entrepreneurs?
+6) Which are the top-3 states that has got maximum number of deals?
+7) Industry wise count the total number of startups who pitched in shark tank
+8) Count the number of pitchers who are male, female and belongs to mixed team
+9) Find the maximum amount requested by a pitcher in each industrial segment
+10) Find the maximum equity received by a shark in each industrial segment
+11) Find the total amount invested by each shark throughout shark tank
+12) Name the startups with Top-15 investments
+13) Find number of deals having [1,2,3,4,5] sharks included in the deal
+14) Which are the top-3 industries where "Kevin O Leary" is more interested to invest into?
+15) Which are the 3 least favoured industries by the sharks?
+16) Give your conclusion over the entire analysis, depicting the overall inference from the dataset.

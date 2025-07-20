@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits</title>
+  </head>
+  <body>
+    <input type="text" id="frtname" placeholder="Enter The Fruit Name" />
+    <br />
+    <br />
+    <button id="btn" onclick="AddFruits()">Add</button>
+    <ul id="List"></ul>
+    <script>
+      var fruits = [];
+      function AddFruits() {
+        var input = document.getElementById("frtname").value;
+        fruits.push(input);
+        console.log(fruits, fruits.length);
+
+        var html = " ";
+
+        fruits.forEach((fruit) => {
+          html += "<li>" + fruit + "</li>";
+        });
+        //document.getElementById("List").innerHTML =
+        //document.getElementById("frtname").innerHTML +
+        //"<li>" +
+        //  input +
+        //  "</li>";
+        //document.getElementById("frtname").value = "";
+        document.getElementById("List").innerHTML = html;
+        document.getElementById("frtname").value = "";
+      }
+    </script>
+    <script></script>
+  </body>
+</html>

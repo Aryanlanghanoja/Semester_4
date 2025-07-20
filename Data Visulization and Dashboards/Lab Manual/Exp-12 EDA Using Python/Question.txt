@@ -1,0 +1,19 @@
+5.	Top 5 Books having the highest average ratings
+6.	Top-5 authors spending maximum amount on marketing
+7.	Top 5 authors writing the highest total number of pages
+8.	Top-5 Publication House (in terms of count of books published)
+9.	Top-5 publication house with highest-priced books
+10.	Total number of books in each genre
+11.	Top-5 publication house with the highest sales in each quarter
+12.	Top-3 youngest authors
+13.	Whose (Author) book is least read by the readers
+14.	Average price of the books published by top-5 authors (in terms of their published books)
+15.	Average price of the books for each publication house
+16.	Which genre of the book has the highest sales
+17.	Top 5 books having won the maximum number of awards
+18.	Top-3 publication houses having won the maximum number of awards
+19.	Which genre of the books has the highest price
+20.	Total number of books published by any publication house having a price >20 USD
+21.	Top-5 books with the highest worth (worth=price/number of pages)
+22.	Top-5 authors having the highest sales of their books
+23.	Top-5 books with the highest number of pages

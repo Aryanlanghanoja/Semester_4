@@ -1,0 +1,53 @@
+<!-- design a webpage to accept the number from user and create that number of div -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tak-2</title>
+    <style>
+      .even {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+      }
+
+      .odd {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <b>Enter A Number :- </b> <input type="number" id="input" />
+    <br />
+    <br />
+    <br />
+
+    <button id="btn" onclick="handleAdd()">Submit</button>
+    <script>
+      function handleAdd() {
+        var number = document.getElementById("input").value;
+        var HTML = "";
+
+        for (let index = 0; index < number; index++) {
+          if (index % 2 == 0) {
+            HTML +=
+              '<div class="even"><center>' + (index + 1) + "</center></div>";
+          } else {
+            HTML +=
+              '<div class="odd"><center>' + (index + 1) + "</center></div>";
+          }
+        }
+
+        document.getElementById("myDiv").innerHTML = HTML;
+      }
+    </script>
+    <div id="myDiv"></div>
+  </body>
+</html>

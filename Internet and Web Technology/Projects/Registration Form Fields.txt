@@ -1,0 +1,10 @@
+First Name
+Last Name
+Email- Marwadi
+Phone No
+Department
+Semester
+Enrollmnet No
+GR NO
+Password
+Confirm Password

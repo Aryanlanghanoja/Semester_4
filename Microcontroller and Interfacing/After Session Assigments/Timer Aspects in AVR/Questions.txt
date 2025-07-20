@@ -1,0 +1,5 @@
+Q.1 List the basic registers used for timers in AVR ATMEGA32 along with their uses.
+Q.2 Determine the timer's clock frequency and its period for various AVR based systems, with below mentioned crystal frequencies. Assume that no prescalar is used. 1. 10MHz 2. 8MHz 3. 1MHz
+Q.3 Write a program to generate a square wave with a period of 12.5us on pin PORTB.3. Assume that XTAL = 8MHz.
+Q.4 Write a C program to toggle all the bits of PORTB continuously with a delay of 10ms. Use Timer 0, normal mode, with suitable prescalar to generate the delay. Assume the frequency to be 8MHz
+Q.5 Write a C program to toggle only PORTB.4 bit continuously every 70us. Use Timer 0,, Normal Mode, and 1:8 prescalar to create the delay. Assume XTAL= 8MHz.

@@ -1,0 +1,38 @@
+<!-- Create one form with User and Password and Confirm Password on click of Submit Button Check All the Fields are not Empty Password and COnfirm password are same -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <center><h1>Registration Form</h1></center>
+    <form action="" onsubmit="ValidateUser()" method="post">
+        <table>
+            <tr>
+                <td><label for="Name"><b>Enter Your Name :- </b></label></td>
+                <td><input type="text" name="InputName" id="InputName"  required/ ></td>
+            </tr>
+
+            <tr>
+                <td><label for="Password"><b>Enter Your Password :- </b></label></td>
+                <td><input type="password" name="InputPassword" id="InputPassword"  onfocus="OnFocusEvent()"/></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Confirm_Password"><b>Confirm Password :- </b></label></td>
+                <td><input type="password" name="Confirm_Password" id="Confirm_Password"  onchange="ValidateUser()"/></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><center><input type="submit" value="Submit" onclick="ValidateUser()"></center></td>
+            </tr>
+        </table>
+    </form>
+    
+    <script src="./Form.js"></script>
+</body>
+</html>

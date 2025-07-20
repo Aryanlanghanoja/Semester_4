@@ -1,0 +1,11 @@
+Make Multiple Spreadsheets 
+1 - GR NO with ID
+2 - ID | Name
+3 - Gr.No | SPI 
+4 - Name | 10th Mark
+
+Make the 4 Spreadsheets with 30 dummy data
+Analysis of Name vs SPI and arrange in decending order
+Analysis of GR No vs 10th Marks and arrange in decending order
+
+Using Tableau and Python

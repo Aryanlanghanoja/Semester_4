@@ -1,0 +1,54 @@
+<!-- This is for testing js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Javascript Page</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="txtMyInput"
+      name="txtMyInput"
+      placeholder="Enter Your Name "
+    />
+
+    <input type="button" id="btnAdd" value="Add" onclick="handleClick()" />
+    <p id="myPara"></p>
+    <script type="text/javascript">
+      function handleClick() {
+        //console.log("Add Button Clicked\n");
+        //var input = document.getElementById("txtMyInput").value;
+        //console.log(input);
+        //console.log(document.getElementById("txtMyInput").value);
+        document.getElementById("myPara").innerHTML =
+          "<b>" + document.getElementById("txtMyInput").value + "</b>";
+        document.getElementById("txtMyInput").value = " ";
+      }
+      /*
+        // to declatre a variable
+      var a = 10;
+      var b = 20;
+      console.log(a, b, a + b);
+      // string concate
+      console.log(a + " + " + b + " = " + (a + b));
+      // string interpolation
+      console.log(`${a} + ${b} = ${a + b}`);
+      // typeof
+      console.log(typeof a);
+      //Datatype = number,string,boolean
+      // == it will only comapre values but === will compare value and datatype
+      calc();
+      function calc() {
+        console.log("This is From Function Calc");
+      }
+      calc();
+      */
+    </script>
+    <!-- Design A Page to accept username and display on screen once user click on Add button -->
+    <!-- Design Page to get fruits name from user and display as list-->
+    <!-- DOM  Document Object Model-->
+  </body>
+</html>

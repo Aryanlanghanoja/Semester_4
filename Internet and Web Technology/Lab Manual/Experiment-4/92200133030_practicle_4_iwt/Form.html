@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Institute Email</label>
+                            <input type="email" placeholder="Enter your institute email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Personal Mail</label>
+                            <input type="email" placeholder="Enter your personal email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Phone Number</label>
+                            <input type="tel" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Department</label>
+                            <select required>
+                                <option disabled selected>Select department</option>
+                                <option value="CE-AI">CE-AI</option>
+                                <option value="ICT">ICT</option>
+                                <option value="CE">CE</option>
+                                <option value="BIO INFORMATICS">BIO INFORMATICS</option>
+                                <option value="IT">IT</option>
+                                <option value="BCA">BCA</option>
+                                <option value="MCA">MCA</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Batch Year</label>
+                            <input type="number" placeholder="Enter your batch year" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Enrollment No</label>
+                            <input type="text" placeholder="Enter your enrollment number" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="register">
+                    <span class="btnText">Register</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+                <button class="alreadyRegistered">
+                    <span class="btnText">Already Registered</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./Form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document_12</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="question_add">
+        <input type="text" name="txtQuestion" id="txtQuestion" placeholder="Enter The Question"><br>
+        <input type="text" name="txtOpt1" id="txtOpt1" placeholder="Enter The Option-1"><br>
+        <input type="text" name="txtOpt2" id="txtOpt2" placeholder="Enter The Option-2"><br>
+        <input type="text" name="txtOpt3" id="txtOpt3" placeholder="Enter The Option-3"><br>
+        <input type="text" name="txtOpt4" id="txtOpt4" placeholder="Enter The Option-4"><br>
+        <b>Select The Correct Answer :- </b>
+        <select name="corrAns" id="corrAns">
+            <option value="1">Option-1</option>
+            <option value="2">Option-2</option>
+            <option value="3">Option-3</option>
+            <option value="4">Option-4</option>
+        </select>
+        <input type="button" value="Add" class="addQue" id="addQue" onclick="addQuestion()">
+    
+    </div>
+    <div class="question" id="labelQuestion">
+        Question text
+    </div>
+    <div class="answer" id="answer">
+    </div>
+    <div class="navigation">
+        <button type="button" id="btnPrev" onclick="onClickPrev()">Prev</button>
+        <button type="button" id="btnCheck" onclick="checkAnswer()">Check Answer</button>
+        <button type="button" id="btnNext" onclick="onClickNext()">Next</button>
+        <button type="button" id="btnCheckResult" onclick="onClickResult()" style="display:none">Check Result</button>
+    </div>
+    <!-- <input type="radio" name="" id="" checked="checked"> -->
+    <div id="displayresult"></div>
+    <script src="myjs.js"></script>
+</body>
+
+</html>

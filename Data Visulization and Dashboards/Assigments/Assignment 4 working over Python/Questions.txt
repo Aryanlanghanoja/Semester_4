@@ -1,0 +1,27 @@
+Questions :-
+
+1. Average "total cost" and count of the product 1 under normal order category
+2. Average "total cost" and count of the product 1 under short order category
+3. Average "total cost" and count of the product 1 under large order category
+4. Which month has the highest count of orders placed?
+5. Which year has the highest "average total cost"?
+6. What is the ratio of the number of orders placed by male and female?
+7. What is the ratio of the total cost of the orders placed by male and female?
+8. How many orders are placed under each order category for the country "INDIA"?
+9. What is the total cost of the order placed by the customer "Willis Brinks"?
+10. Name the customer who has placed the order with the highest amount.
+11. What is the most common order quantity?
+12. Are there specific quarters with higher order volumes?
+13. How does order frequency vary over the month?
+14. Are there certain categories contributing more to revenue?
+15. What is the distribution of orders across different order categories?
+16. Can you identify the most common product purchased in large orders?
+17. What is the average quantity of products per order?
+18. Which product has the highest unit price?
+19. What is the total revenue generated from large orders versus normal orders?
+20. What is the proportion of large orders to normal orders in the dataset?
+21. How many unique customers are represented in the dataset?
+22. What is the most frequently purchased product across all orders?
+23. What is the average total cost for each order category?
+24. How does the quantity of products impact the total cost in different order categories?
+25. What is the proportion of small, normal, and large orders in the dataset?

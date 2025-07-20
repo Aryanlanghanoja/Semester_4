@@ -1,0 +1,3 @@
+caching 
+bufffering
+http vs https

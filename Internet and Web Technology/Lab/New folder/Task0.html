@@ -1,0 +1,108 @@
+<!-- Create a Screen Having 16 Blocks which contains number 1 to 8 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <style>
+        td {
+            border: 1px solid red;
+            margin: 100px;
+            height: 100px;
+            width: 100px;
+            font-size: xx-large;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .hover {
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            margin-top: 100px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hover:hover {
+            height: 50px;
+            width: 50px;         
+        }
+
+        .btn-save {
+            background: green;
+            color: white;
+            margin-top: 100px;
+            height: 50px;
+            width: 100px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 200px;
+        }
+
+        .btn-save:hover {
+            background: white;
+            color: green;
+            border-color: green;
+        }
+
+        .btn-cancel {
+            background: red;
+            color: white;
+            margin-top: 100px;
+            height: 50px;
+            width: 100px;
+            font-size: large;  
+            font-weight: bold; 
+            border-radius: 200px;         
+        }
+
+        .btn-cancel:hover {
+            background: white;
+            color: red;
+            border-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blocks">
+        <table>
+            <tr>
+                <td id="11">1</td>
+                <td id="12">2</td>
+                <td id="13">3</td>
+                <td id="14">4</td>
+            </tr>
+            <tr>
+                <td id="15">5</td>
+                <td id="16">6</td>
+                <td id="17">7</td>
+                <td id="18">8</td>
+            </tr>
+            <tr>
+                <td id="21">1</td>
+                <td id="22">2</td>
+                <td id="23">3</td>
+                <td id="24">4</td>
+            </tr>
+            <tr>
+                <td id="25">5</td>
+                <td id="26">6</td>
+                <td id="27">7</td>
+                <td id="28">8</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="hover">Touch</div>
+
+    <button class="btn-save">Save</button>
+    <button class="btn-cancel">Cancel</button>
+</body>
+</html>

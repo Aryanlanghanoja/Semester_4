@@ -1,0 +1,5 @@
+1. Let us assume that 8 LEDs are connected to pins of PORTB. Write an AVR C program that shows count from 0 to FFH on the LEDs.
+2. Configure portB as input port, configure portC as output port. Write an AVR C program to get a byte from PortB and then send it to PortC.
+3. Write an AVR C program to get a byte of data from PORTC. If it is less than 200, send it to PortB, otherwise send it to Port D.
+4. Write an AVR C program to toggle only bit 7 of PortB continuously without disturbing the rest of the pins of PortB.
+5. Write an AVR C program to monitor bit 5 of port C. If it is high, send FFH to portB , otherwise send 00H to portB.

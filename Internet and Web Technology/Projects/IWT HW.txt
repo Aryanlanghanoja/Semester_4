@@ -1,0 +1,6 @@
+1) If Given Number or Not
+2) Find Out Cube of given Number
+3) Area of Circle
+4) Area of Rectangle
+5) Login Form Where Username and Password are there if there is in revese order then welcom else invalid
+6) Registration FOrm print Validation Message Using JS and php Script
