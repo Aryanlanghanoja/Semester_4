@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #Container {
+            display: inline-flex;
+        }
+
+        .card {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Container">
+
+    </div>
+
+    <script>
+        var HTML = '' ;
+        var Car_Name = ['Rolls Royce Ghoost' , 'BMW GT' , 'Mercedes Maybach S650','Lexus ES400L' , 'Jaguar XF'];
+        var price = ['5','0.75' , '2.79' , '2.13','0.76'] ;
+
+            for(var i=0;i<5;i++) {
+                HTML +=             
+                    '<div class="card">' +
+                    '<img src="/img/1.jpg" alt="Rolls Royce Ghost" height="100px" width="150px"/>' +
+                    '<div class="product_title">Rolls Royce Ghost</div>' +
+                    '<div class="product_des">This is a Rolls Royce</div>' +
+                    '<div>' +
+                    '<div class="offer_price">₹ 5 Cr</div>' +
+                    '</div>' +
+                    '</div>';
+            }
+
+        document.getElementById("Container").innerHTML = HTML;
+    </script>
+</body>
+
+</html>

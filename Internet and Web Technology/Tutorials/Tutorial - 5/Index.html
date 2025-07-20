@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWT Tutorial - 5 Blogging Site</title>
+    <link rel="stylesheet" type="text/css" href="./Style.css" />
+    <script src="./Script.js"></script>
+</head>
+
+<body>
+    <h1>
+        <center>Bloging Site</center>
+    </h1>
+
+    <table>
+        <tr>
+            <td>
+                <b>Author Name :- </b>
+            </td>
+
+            <td>
+                <input id="inputname" type="text" placeholder="Enter Your Name" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Blog Title :- </b>
+            </td>
+
+            <td>
+                <input type="text" id="inputtitle" placeholder="Enter The Title">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Image :- </b>
+            </td>
+
+            <td>
+                <input type="url" id="inputurl" placeholder="Paste Your Image URL">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b>Description :- </b>
+            </td>
+
+            <td>
+                <textarea id="inputdescription" cols="20" rows="1" placeholder="Enter The Description"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <center>
+                    <button id="Reset" onclick="btnreset()">Reset</button>
+                </center>
+            </td>
+
+            <td>
+                <center>
+                    <button id="Submit" onclick="btnsubmit()">Submit</button>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <div class="Container" id="Container"></div>
+</body>
+
+</html>

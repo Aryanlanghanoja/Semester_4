@@ -1,0 +1,55 @@
+<!-- Design a product card which have product image ,product name,short description,price,actual price with strike   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodruct Card</title>
+    <style>
+        .card {
+            height: 200px;
+            width: 400px;
+            color: bisque;
+            display: inline-block;
+        }
+
+        .product_title {
+            font-size: 25px;
+            font-weight: bold;
+            color: blueviolet;
+        }
+
+        .product_des {
+            font-size: 15px;
+            color: cadetblue;
+        }
+
+        .offer_price {
+            color: green;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .actual_price {
+            display: inline-block;
+            color: red;
+            font-weight: bold;
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="/img/1.jpg" alt="Rolls Royce Ghost" height="100px" width="150px"/>
+        <div class="product_title">Rolls Royce Ghoost</div>
+        <div class="product_des">This is a Rolls Royce</div>
+        <div>
+            <div class="offer_price">₹ 5,00,00,000</div>
+            <div class="actual_price">₹ 7,00,00,000</div>
+        </div>
+
+    </div>
+</body>
+</html>

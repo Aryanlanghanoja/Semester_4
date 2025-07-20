@@ -1,0 +1,114 @@
+<!-- Display Fruit Cards Based on iven Data -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+
+    <style>
+        .btnsubmit {
+            margin: 100px;
+        }
+
+        .card {
+            display: inline-block;
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <p><b>Enter A Number :- </b></p>
+    <input id="txtnum" type="number" />
+    <button id="btnsubmit" onclick="setImages()">Enter</button>
+    <div id="Container"></div>
+
+    <script>
+        var Fruits = [
+            {
+                'img' : '1' , 
+                'title': 'Strawberry',
+                'desc': 'Red Fruits',
+                'Price': '45'
+            } , 
+
+            {
+                'img': '2',
+                'title': 'Mango',
+                'desc': 'Red Fruits',
+                'Price': '45'
+            } , 
+
+            {
+                'img': '3',
+                'title': 'Oranges',
+                'desc': 'Red Fruits',
+                'Price': '45'                 
+            } , 
+
+            {
+                'img': '4',
+                'title': 'Watermelon',
+                'desc': 'Red Fruits',
+                'Price': '45'
+            }
+        ];
+
+
+        /* var num  = document.getElementById('txtnum').value ;
+
+        if (num <= 1) {
+            alert("Insert Valid Number");
+        }
+
+        else {
+        var HTML = '' ;
+        for (var i = 0; i < 5; i++) {
+                HTML +=
+                    '<div class="card">' +
+                    '<img src="/img/1.jpg" alt="Rolls Royce Ghost" height="100px" width="150px"/>' +
+                    '<div class="product_title">Rolls Royce Ghost</div>' +
+                    '<div class="product_des">This is a Rolls Royce</div>' +
+                    '<div>' +
+                    '<div class="offer_price">₹ 5 Cr</div>' +
+                    '</div>' +
+                    '</div>';
+            }
+
+        document.getElementById("Container").innerHTML = HTML;
+        }
+         */
+
+        function setImages() {
+            var num = document.getElementById('txtnum').value;
+
+            if (num <= 1) {
+                document.getElementById("Container").innerHTML = " ";
+                alert("Insert Valid Number");
+            }
+
+            else {
+                var HTML = '';
+                for (var i = 0; i < num; i++) {
+                    HTML +=
+                        '<div class="card">' +
+                        '<img src="/img/1.jpg" alt="Rolls Royce Ghost" height="100px" width="150px"/>' +
+                        '<div class="product_title">Rolls Royce Ghost</div>' +
+                        '<div class="product_des">This is a Rolls Royce</div>' +
+                        '<div>' +
+                        '<div class="offer_price">₹ 5 Cr</div>' +
+                        '</div>' +
+                        '</div>';
+                }
+
+                document.getElementById("Container").innerHTML = HTML;
+            }
+
+
+        }
+    </script>
+</body>
+</html>
