@@ -1,0 +1,28 @@
+body {
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+.Heading {
+    background-color: lightgray;
+}
+
+.Changed {
+    background-color: #00ff00;
+}
+
